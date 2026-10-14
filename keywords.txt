@@ -1,0 +1,54 @@
+#######################################
+# I2C_EASY
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+i2c_init	KEYWORD2
+i2c_set_freq	KEYWORD2
+i2c_start	KEYWORD2
+i2c_stop	KEYWORD2
+i2c_write_byte	KEYWORD2
+i2c_read_byte	KEYWORD2
+i2c_write	KEYWORD2
+i2c_read	KEYWORD2
+i2c_write_reg	KEYWORD2
+i2c_read_reg	KEYWORD2
+i2c_write_regs	KEYWORD2
+i2c_read_regs	KEYWORD2
+i2c_write_reg16	KEYWORD2
+i2c_read_reg16	KEYWORD2
+i2c_write_regs16	KEYWORD2
+i2c_read_regs16	KEYWORD2
+i2c_read_bit	KEYWORD2
+i2c_read_bits	KEYWORD2
+i2c_write_bit	KEYWORD2
+i2c_write_bits	KEYWORD2
+i2c_read_word	KEYWORD2
+i2c_read_words	KEYWORD2
+i2c_write_word	KEYWORD2
+i2c_write_words	KEYWORD2
+i2c_write_then_read	KEYWORD2
+i2c_last_error	KEYWORD2
+i2c_reset	KEYWORD2
+i2c_ping	KEYWORD2
+i2c_bus_busy	KEYWORD2
+i2c_bus_free	KEYWORD2
+i2c_scan	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+I2C_OK	LITERAL1
+I2C_ERR_TIMEOUT	LITERAL1
+I2C_ERR_START	LITERAL1
+I2C_ERR_ADDR_NACK	LITERAL1
+I2C_ERR_DATA_NACK	LITERAL1
+I2C_ERR_BUS	LITERAL1
+I2C_ERR_ARB_LOST	LITERAL1
+I2C_ERR_BUS_LOCKED	LITERAL1
+I2C_EASY_FREQ	LITERAL1
+I2C_EASY_TIMEOUT	LITERAL1
